@@ -97,7 +97,7 @@ const onKanjiSelect = async (data) => { //Pass in data
 
 }
 
-const getInformation = (kanjiDetail, image) => {
+const getInformation = (kanjiDetail) => {
 
     const kanjiInfo = kanjiDetail.kanji
     document.querySelector('.kanjiInfo').classList.remove('hidden')
