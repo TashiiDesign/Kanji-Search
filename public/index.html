@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <div class="justify-left items-center header m-12 p-3">
+            <h1 class="font-sans font-semibold text-2xl mb-1 ">SEARCH FOR A SINGLE KANJI OR ENGLISH MEANING</h1>
+            <p class="font-light mb-5 text-sm">Examples: 雨 | 訪 | 分 | 大 | tree | rain | flower | moon | electricity</p>
+
+            <div class="autocomplete w-2/4 "></div>
+    </div>
+
+    <div class="kanjiInfo hidden grid grid-cols-2 gap-8 border-solid border-2 border-black p-14 m-12"></div>
+
+    <div class="stroke-images"></div>
+
+
+<script src="utils.js"></script>
+<script src="autocomplete.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
